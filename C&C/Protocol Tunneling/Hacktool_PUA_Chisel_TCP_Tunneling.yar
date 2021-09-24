@@ -4,6 +4,7 @@
    Date: 2021-09-24
    Identifier: Hacktool Indicator
    Reference: https://github.com/jpillora/chisel/
+   MITRE ATT&CK: https://attack.mitre.org/techniques/T1572/
 */
 
 /* Rule Set ----------------------------------------------------------------- */
