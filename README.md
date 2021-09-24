@@ -1,2 +1,2 @@
 # custom-yara-rules
-custom auto-generate yara rules/signatures for self-study research
+custom auto-generated yara rules/signatures based on MITRE ATT&CK for self-study research
