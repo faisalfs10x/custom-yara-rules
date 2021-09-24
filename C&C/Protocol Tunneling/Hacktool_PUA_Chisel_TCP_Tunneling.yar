@@ -11,7 +11,7 @@
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chiselv1.7.0"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chiselv1.7.0"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -44,7 +44,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chisel_1.7.6_windows_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chisel_1.7.6_windows_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -77,7 +77,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chiselv1.7.0.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chiselv1.7.0.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -110,7 +110,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chiselv1.7.4.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chiselv1.7.4.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -143,7 +143,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chiselv1.7.5"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chiselv1.7.5"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -176,7 +176,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chiselv1.7.4"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chiselv1.7.4"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -209,7 +209,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chiselv1.7.5.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chiselv1.7.5.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -242,7 +242,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chisel_1.7.6_windows_386"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chisel_1.7.6_windows_386"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -275,7 +275,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - file chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - file chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -310,7 +310,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -351,7 +351,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.4"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.4"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -387,7 +387,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chiselv1.7.5, chiselv1.7.4, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chiselv1.7.5, chiselv1.7.4, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -423,7 +423,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.5, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.5, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -457,7 +457,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chiselv1.7.4"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chiselv1.7.4"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -491,7 +491,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -528,7 +528,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.5.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.5.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -562,7 +562,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0.exe, chiselv1.7.4.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0.exe, chiselv1.7.4.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -596,7 +596,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -636,7 +636,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.5, chiselv1.7.5.exe, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.5, chiselv1.7.5.exe, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -673,7 +673,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -708,7 +708,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.5, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.5, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -744,7 +744,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -780,7 +780,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chiselv1.7.0.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chiselv1.7.0.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -814,7 +814,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -853,7 +853,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.5, chiselv1.7.4, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.5, chiselv1.7.4, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -888,7 +888,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -925,7 +925,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0.exe, chiselv1.7.4.exe, chisel_1.7.6_windows_386"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0.exe, chiselv1.7.4.exe, chisel_1.7.6_windows_386"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -959,7 +959,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -992,7 +992,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.4.exe, chiselv1.7.5.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.4.exe, chiselv1.7.5.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1020,7 +1020,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.5.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.5.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1048,7 +1048,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.4.exe, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.4.exe, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1076,7 +1076,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.4.exe, chisel_1.7.6_windows_386"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.4.exe, chisel_1.7.6_windows_386"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1102,7 +1102,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.4.exe, chiselv1.7.4"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.4.exe, chiselv1.7.4"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1127,7 +1127,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1156,7 +1156,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chiselv1.7.5, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chiselv1.7.5, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1181,7 +1181,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1208,7 +1208,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1233,7 +1233,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.4, chiselv1.7.5.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.4, chiselv1.7.5.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1258,7 +1258,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.5, chiselv1.7.4, chisel_1.7.6_windows_386, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1284,7 +1284,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1308,7 +1308,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.5, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_linux_amd64"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1331,7 +1331,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.4, chiselv1.7.5.exe"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.4, chiselv1.7.5.exe"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
@@ -1352,7 +1352,7 @@ rule Hacktool_PUA_Chisel_TCP_Tunneling {
 
 rule Hacktool_PUA_Chisel_TCP_Tunneling {
    meta:
-      description = "Detect Chisel TCP tunneling (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
+      description = "Detect Chisel TCP tunneling tool (stock version) - from files chiselv1.7.0, chisel_1.7.6_windows_amd64, chiselv1.7.0.exe, chiselv1.7.4.exe, chiselv1.7.4, chiselv1.7.5.exe, chisel_1.7.6_windows_386"
       author = "faisalfs10x"
       reference = "https://github.com/jpillora/chisel/"
       date = "2021-09-24"
