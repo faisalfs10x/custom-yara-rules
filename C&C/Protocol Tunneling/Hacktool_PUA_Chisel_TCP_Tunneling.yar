@@ -38,8 +38,11 @@ rule Hacktool_PUA_Chisel_PE32_TCP_Tunneling {
       $str18 = "tls: failed to send closeNotify alert (but connection was closed anyway): %wcrypto/tls: ExportKeyingMaterial is unavailable when" ascii
       $str19 = "file descriptor in bad statefindrunnable: netpoll with pfound pointer to free objectgcBgMarkWorker: mode not setgcstopm: negativ" ascii
       $str20 = "checkdead: no m for timercontext deadline exceedederror decoding []byte: %sexpected string; found %sexplicit tag has no childhtt" ascii
+
+      $x10 = "(error %s) (targetpc= ErrCode=%v KiB work,  freeindex= gcwaiting= heap_live= idleprocs= in status  mallocing= ms clock,  nBSSRoots=" ascii
+
    condition:
-      uint16(0) == 0x5a4d and filesize < 25000KB and
+      uint16(0) == 0x5a4d and $x10 and filesize < 25000KB and
       1 of ($str*)
 }
 
@@ -71,7 +74,10 @@ rule Hacktool_PUA_Chisel_Elf_TCP_Tunneling {
       $str18 = "http: RoundTripper implementation (%T) returned a nil *Response with a nil errortls: either ServerName or InsecureSkipVerify mus" ascii
       $str19 = "checkdead: no m for timercontext deadline exceedederror decoding []byte: %sexpected string; found %sexplicit tag has no childhtt" ascii
       $str20 = "ssh: GSSAPI authentication must use the Kerberos V5 mechanismtls: client certificate used with invalid signature algorithmtls: s" ascii
+
+      $x10 = "(error %s) (targetpc= ErrCode=%v KiB work,  freeindex= gcwaiting= heap_live= idleprocs= in status  mallocing= ms clock,  nBSSRoots=" ascii
+
    condition:
-      uint16(0) == 0x457f and filesize < 24000KB and
+      uint16(0) == 0x457f and $x10 and filesize < 24000KB and
       1 of ($str*)
 }
