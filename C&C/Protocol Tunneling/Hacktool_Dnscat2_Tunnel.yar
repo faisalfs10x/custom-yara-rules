@@ -4,6 +4,8 @@
    Date: 2021-09-27
    Identifier: Hacktool Indicator
    Reference: https://github.com/iagox86/dnscat2
+   MITRE ATT&CK: https://attack.mitre.org/techniques/T1048/
+   
 */
 
 /* Rule Set ----------------------------------------------------------------- */
