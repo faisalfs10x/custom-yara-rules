@@ -22,7 +22,7 @@ rule PHP_backtick_shell {
       $tag = "<?php" nocase ascii
       
       $str1 = "`$" ascii
-      $str2 = "`" ascii
+      $str2 = "`" ascii //backtick
       
       $x1 = "$_GET" fullword ascii
       $x2 = "$_POST" fullword ascii
