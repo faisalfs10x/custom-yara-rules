@@ -2,9 +2,8 @@
    YARA Rule Set
    Author: faisalfs10x
    Date: 2021-10-17
-   Identifier: Backdoor Setuid
-   Reference: https://raw.githubusercontent.com/nil0x42/phpsploit/master/plugins/system/suidroot/backdoor.c
-   MITRE ATT&CK: https://attack.mitre.org/techniques/T1548/001/
+   Identifier: Backdoor
+   MITRE ATT&CK: https://attack.mitre.org/tactics/TA0003/, https://attack.mitre.org/tactics/TA0004/
    
 */
 
@@ -40,5 +39,5 @@ rule nil0x42_phpsploit_suidbackdoor {
       $s20 = "__libc_csu_init" fullword ascii
    condition:
       uint16(0) == 0x457f and filesize < 50KB and
-      8 of them
+      7 of them
 }
