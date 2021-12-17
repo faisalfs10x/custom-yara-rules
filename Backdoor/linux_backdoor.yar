@@ -18,26 +18,26 @@ rule nil0x42_phpsploit_suidbackdoor {
       
    strings:
       $s1 = ".note.gnu.build-id" fullword ascii
-      $s2 = "_IO_stdin_used" fullword ascii
-      $s3 = "__frame_dummy_init_array_entry" fullword ascii
+      $s2 = "__FRAME_END__" fullword ascii
+      $s3 = "_IO_stdin_used" fullword ascii
       $s4 = "__GNU_EH_FRAME_HDR" fullword ascii
-      $s5 = "[kthreadH" fullword ascii
-      $s6 = "completed.0" fullword ascii
-      $s7 = "system@GLIBC_2.2.5" fullword ascii
-      $s8 = "__FRAME_END__" fullword ascii
-      $s9 = ".eh_frame_hdr" fullword ascii
-      $s10 = ".note.ABI-tag" fullword ascii
-      $s11 = "frame_dummy" fullword ascii
-      $s12 = "__libc_start_main" fullword ascii
-      $s13 = "GLIBC_2.2.5" fullword ascii
-      $s14 = "__gmon_start__" fullword ascii
-      $s15 = "Scrt1.o" fullword ascii
-      $s16 = "libc.so.6" fullword ascii
-      $s17 = "memset@GLIBC_2.2.5" fullword ascii
-      $s18 = "/lib64/ld-linux-x86-64.so.2" fullword ascii
-      $s19 = "__do_global_dtors_aux_fini_array_entry" fullword ascii
-      $s20 = "__libc_csu_init" fullword ascii
+      $s5 = ".eh_frame_hdr" fullword ascii
+      $s6 = "__frame_dummy_init_array_entry" fullword ascii
+      $s7 = "frame_dummy" fullword ascii
+      $s8 = ".note.ABI-tag" fullword ascii
+      $s9 = "__init_array_start" fullword ascii
+      $s10 = "/lib64/ld-linux-x86-64.so.2" fullword ascii
+      $s11 = "deregister_tm_clones" fullword ascii
+      $s12 = "_ITM_deregisterTMCloneTable" fullword ascii
+      $s13 = "__libc_start_main" fullword ascii
+      $s14 = "__do_global_dtors_aux" fullword ascii
+      $s15 = "__init_array_end" fullword ascii
+      $s16 = "__data_start" fullword ascii
+      $s17 = ".plt.got" fullword ascii
+      $s18 = "_ITM_registerTMCloneTable" fullword ascii
+      $s19 = "libc.so.6" fullword ascii
+      $s20 = "__do_global_dtors_aux_fini_array_entry" fullword ascii
    condition:
-      uint16(0) == 0x457f and filesize < 50KB and
-      7 of them
+      ( uint16(0) == 0x457f and filesize < 50KB and ( 8 of them )
+      ) or ( all of them )
 }
